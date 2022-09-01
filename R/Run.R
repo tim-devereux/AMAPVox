@@ -72,7 +72,7 @@ run <- function(version="latest",
                 stdout = "") {
 
   # handle versions
-  version <- versionManager(version)
+  version <- "1.10.4" # versionManager(version)
 
   # look for java and check version
   res <- suppressWarnings(
